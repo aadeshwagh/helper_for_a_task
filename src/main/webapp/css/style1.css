@@ -1,0 +1,52 @@
+body{
+    background:linear-gradient(to right,#ee82ee,#ff0000);
+}
+
+.enclosed1{
+    position: relative;
+	margin-top:40px;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    width: 70%;
+   font-size: 24px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 30px;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+form input[type="text"], input[type="number"]{
+	height: 100%;
+  width: 50%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+} 
+.submit{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size:40px;
+  color:white;
+  border-radius:20px;
+ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+	
+}

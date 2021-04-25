@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+
+
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+} 
+
+.city{
+  padding-left: 10px;
+}
+.container{
+  display: block;
+  padding: 10px;
+	width: 500px;
+  height:700px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  
+		
+}
+form input[type="text"]{
+  
+
+  padding-right: 20px;
+	height: 100%;
+  width: 50%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+form input[type="submit"]{
+
+	 color: #fff;
+	 
+    padding-left: 10px;
+    padding-right: 10px;
+  border-radius:10px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+ background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   transition: all 0.3s ease;
+	
+}
+.apply{
+  
+  float: right;
+  padding-right: 10px;
+}
+.column {
+  float: left;
+  width: 40%;
+  word-wrap: break-word;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+
+  width: 100%;
+}

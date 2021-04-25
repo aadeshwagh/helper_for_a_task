@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href="css/yt.css">
+  </head>
+  <body>
+
+    <a href="Home.jsp" class = "home">Home</a>
+
+    <a href="applications.jsp" class = "home">Status</a>
+    
+    <div class="wrapper">
+      <div class="title">
+Request Help</div>
+<form action="request" method="POST">
+        <div class="field">
+          <input type="text" name = "city" required>
+          <label>City</label>
+        </div>
+<div class="field">
+          <input type="number"  name = "mo_no" required>
+          <label>Mobile no.</label>
+        </div>
+        
+        <div class="field" >
+          <input type="number" name = "cost" required>
+          <label>Base cost</label>
+        </div>
+
+ <div class="field">
+          <textarea name="task" required></textarea>
+          <label>Task</label>
+        </div>
+
+   
+
+<div class="field">
+          <input type="submit" value="Post Request">
+        </div>
+
+</form>
+</div>
+</body>
+</html>

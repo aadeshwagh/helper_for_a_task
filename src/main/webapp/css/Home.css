@@ -1,0 +1,90 @@
+.back{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+  
+    display: block;
+    background-image: linear-gradient(to right, rgb(150, 7, 179),rgb(191, 23, 206), rgb(123, 29, 247));
+    
+}
+h2{
+    position: absolute;
+    color:white;
+    margin-left: 20px;
+    
+
+}
+.form1{
+    position:absolute;
+    left: 90%;
+    
+}
+.form1 input[type = "submit"]{
+color:white;
+margin-top: 20px;
+border-radius: 10px solid white;
+background: none;
+width: 70px;
+height: 30px;
+font-family: sans-serif;
+font-size: 17px;
+
+}
+
+
+.button{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:25%;
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 10px ;
+    
+}
+
+.info{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.info1{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.about{
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+}
+.but{
+    padding-left: 20px;
+}
+.button1{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right:25%;
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 10px ;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(204, 204, 204, 0.753);
+}
