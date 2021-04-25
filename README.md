@@ -6,7 +6,7 @@ There are many things many things that elderly people need help with such tasks 
 
 ## interface 
 
-<img src="images/Capture" >
+<img src="images\Capture" >
 <img src="images/Capture1" >
 <img src="images/Capture2" >
 <img src="images/Capture3" >
