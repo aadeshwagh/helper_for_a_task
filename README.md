@@ -7,8 +7,8 @@ There are many things many things that elderly people need help with such tasks 
 ## interface 
 
 <img src="images/Capture.PNG" >
-<img src="images/Capture1" >
-<img src="images/Capture2" >
-<img src="images/Capture3" >
-<img src="images/Capture4" >
+<img src="images/Capture1.PNG" >
+<img src="images/Capture2.PNG" >
+<img src="images/Capture3.PNG" >
+<img src="images/Capture4.PNG" >
 
