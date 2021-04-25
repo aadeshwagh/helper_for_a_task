@@ -1,7 +1,6 @@
 body{
-    background:linear-gradient(to right,#ee82ee,#ff0000);
+  background-image: linear-gradient(to right, rgb(150, 7, 179),rgb(191, 23, 206), rgb(123, 29, 247));
 }
-
 .enclosed1{
     position: relative;
 	margin-top:40px;

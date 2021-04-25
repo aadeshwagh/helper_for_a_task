@@ -13,7 +13,7 @@ html,body{
   place-items: center;
   
   /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to right, rgb(150, 7, 179),rgb(191, 23, 206), rgb(123, 29, 247));
 
   
 } 
