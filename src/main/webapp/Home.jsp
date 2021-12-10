@@ -30,15 +30,15 @@
     </div>
     <a href="request.html">
     <div class="button" >
-        <h1 class="but">Request Help</h1>
-        <p class="info1">Need help to do some task</p>
+        <h1 class="but">Add a job</h1>
+        <p class="info1"></p>
             
     </div>
     </a>
     <a href="helps.jsp">
         <div class="button1" >
-            <h1 class="but">Want to Help</h1>
-            <p class="info1">Have some time to spend and want to help other people</p>
+            <h1 class="but">Find work</h1>
+            <p class="info1">Find work available in your city </p>
         </div>
         </a>
 </body>

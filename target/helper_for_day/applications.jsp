@@ -29,7 +29,7 @@
             
             try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/helper","root","Phe6@nol");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/helper","<username>","<Password>");
             PreparedStatement st = con.prepareStatement(quory);
             st.setString(1,active_user);
             ResultSet rs  = st.executeQuery();
